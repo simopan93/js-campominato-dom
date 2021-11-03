@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.top-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  height: 10vh;
+  width: 80%;
+}
+
+.top-page .box-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-page img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.top-page .box-logo h1 {
+  font-weight: bold;
+}
+
+.top-page .box-choice {
+  display: flex;
+  align-items: center;
+}
+
+.top-page .box-choice h6 {
+  margin: 0;
+}
+
+.top-page .box-choice select {
+  padding-right: 40px;
+}
+
+.top-page .box-choice .btn {
+  border: 1px solid black;
+  padding: 0 20px;
+}
+
+.main-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #80FED4;
+}
+
+.container{
+  width: 500px;
+  height: 500px;
+}
+
+.square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  border: 2px solid black;
+  cursor: pointer;
+  color: black;
+}
+
+.square span{
+  display: none;
+}
+.square.clicked span{
+  display: block;
+}
+
+.square.even.clicked{
+  background-color: #3DC4B6;
+}
+.square.odd.clicked{
+  background-color: brown;
+}
