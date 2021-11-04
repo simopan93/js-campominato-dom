@@ -81,9 +81,9 @@ body{
   display: block;
 }
 
-.square.even.clicked{
+.square.clicked{
   background-color: #3DC4B6;
 }
-.square.odd.clicked{
+.square.clickedError{
   background-color: brown;
 }
