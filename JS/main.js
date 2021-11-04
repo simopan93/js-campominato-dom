@@ -1,4 +1,4 @@
-const btn = document.querySelector(".btn");
+const btn = document.querySelector(".btn"); 
 
 
 //Avvio il gioco appena clicco il bottone.
